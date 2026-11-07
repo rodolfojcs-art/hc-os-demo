@@ -3,7 +3,7 @@
  * stale-while-revalidate para el resto (fuentes incluidas), y la navegacion cae
  * al index cacheado cuando no hay red. Subir VERSION invalida el cache anterior. */
 
-const VERSION = 'hc-os-v1'
+const VERSION = 'hc-os-v2'
 const SHELL = ['./', './manifest.webmanifest', './pwa-192.png', './pwa-512.png', './hc-logo.png']
 
 self.addEventListener('install', (event) => {
